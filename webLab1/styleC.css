@@ -1,0 +1,72 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row; 
+    font-family: 'Raleway', sans-serif;
+}
+.container > div { 
+    margin: 5px;
+    text-align: center;
+    font-weight: 550;
+    padding-top: 25px;
+    width: 100px;
+    height: 80px;
+    border: 1px  lightskyblue solid;
+    font-size: 40px;
+    transition: width 150ms, height 150ms;
+}
+div :hover {
+    cursor: pointer;
+    color: limegreen;
+    padding-top: 35px;
+    font-weight: 650;
+    width: 120px;
+    height: 90px;
+    font-size: 45px;
+    box-shadow: 0px 0px 10px 5px rgb(130, 206, 79);
+    border: 2px lightskyblue solid;
+}
+#A, #F{
+    background-color: violet;
+    animation-name: hhe;
+    animation-duration: 2s;
+}
+#A {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#F {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#B,  #E {
+    background-color: violet;
+    animation-name: hhe1;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+#C, #D {
+    background-color: violet;
+    animation-name: hhe2;
+    animation-duration: 1s;
+    animation-delay: 2s;
+   }
+@keyframes hhe {
+    0% {background-color: violet; }
+    50% {background-color: rgb(94, 148, 44);}
+    100% {background-color: violet;}
+}
+@keyframes hhe1 {
+    0% {background-color: rgb(94, 148, 44); }
+    100% {background-color: rgb(188, 63, 219);}
+    }
+@keyframes hhe2 {
+    0% {background-color:  rgb(188, 63, 219); }
+    100% {background-color: rgb(220, 150, 238);}
+}
+#grad1 {
+    height: 200px;
+    background-color: violet;
+    background-image: linear-gradient(to bottom right, violet, lightblue );
+  }

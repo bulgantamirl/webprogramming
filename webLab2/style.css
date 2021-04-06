@@ -1,0 +1,89 @@
+body { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    
+}
+
+.title {
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+.navigation {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.months {
+    padding-left: 35px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+label {
+    font-size: 1.2em;
+    margin: 15px;
+    padding: 5px;
+}
+div .calendar {
+    height: 300px;
+    margin: 15px;
+}
+.days {
+    height: 30px;
+    width: 30px;
+}
+.main { 
+    
+    max-width: 1300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.weekdays {
+    color: goldenrod;
+    font-size: 1.1em;
+}
+td.blur {
+    color: rgb(18, 177, 177);
+}
+.event {
+    color:rgb(228, 30, 211);
+    font-weight: 800;
+    background-color: rgba(243, 139, 2, 0.808);
+    border-radius: 10px;
+}
+img {
+    width: auto;
+    height: 100px;
+}
+#title {
+    align-items: flex-end;
+    font-weight: 900;
+    
+}
+h1 {
+    font-weight: 400;
+    color:dodgerblue;
+    font-size: 52px;
+}
+table {
+    padding: 15px;
+    text-align: center;
+}
+table.main :hover {
+    cursor: pointer;
+    color: dodgerblue;
+    border:dotted;
+    border-radius: 7px;
+}
+#weekend {
+    color:rgb(255, 72, 0);
+}
